@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 public class ReadingdatafromCommandtest {
 	@Test(groups="smoke")
 	public void ReadingdatafromCommandtest() {
-		
-	String URL=	System.getProperty("url");
+		//for taking input from command prompt
+	String URL=System.getProperty("url");
 	String UN=System.getProperty("username");
 	String PWD=System.getProperty("password");
 	System.out.println(URL);
@@ -16,7 +16,7 @@ public class ReadingdatafromCommandtest {
 }
 	@Test(groups="regression")
 	public void regressiontest() {
-		System.out.println("regression test");
+		System.out.println("regression test pass");
 	}
 }
 
